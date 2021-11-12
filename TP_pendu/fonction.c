@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fonction.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: stde-alm <dasilva_s@ik.me>                 +#+  +:+       +#+        */
+/*   By: stde-alm <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/12 00:42:47 by stde-alm          #+#    #+#             */
-/*   Updated: 2021/10/16 01:38:26 by stde-alm         ###   ########.fr       */
+/*   Updated: 2021/11/12 12:34:30 by stde-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -129,5 +129,5 @@ int ft_alaligne_x(FILE* fichier, int ligne)
 			ligne--;
 		}
 	}
+	return(0);
 }
-
