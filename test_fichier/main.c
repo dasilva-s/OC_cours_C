@@ -15,12 +15,12 @@
 
 int main(void)
 {
-	FILE* fichier = NULL;
-	fichier = fopen("test.txt", "w");
+	FILE* fichier;
+	fichier = fopen("test.txt", "w+");
 
 	if (fichier != NULL)
 	{
-		fputc('B', fichier);
+		fputc('c', fichier);
 		fputs("\nHELLO WORD!", fichier);
 		fclose(fichier);
 	}
